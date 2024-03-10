@@ -1,9 +1,10 @@
 # *Simple CRUD Todo Application*
-
+<span>
 <img src="https://seeklogo.com/images/S/spring-logo-9A2BC78AAF-seeklogo.com.png" alt="Spring logo" style="margin: 20px" width=75>
 <img src="https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png" alt="React logo" style="margin: 20px" width=80>
 <img src="https://seeklogo.com/images/D/docker-logo-E3A71BA745-seeklogo.com.png" alt="Docker logo" style="margin: 20px" width=100>
 <img src="https://seeklogo.com/images/P/postgresql-logo-5309879B58-seeklogo.com.png" alt="PostgreSQL logo" style="margin: 20px" width=100>
+</span>
 
 ## *Description*
 This project was an exercise in creating a fullstack web application, using technologies I have been learning about for a while:
