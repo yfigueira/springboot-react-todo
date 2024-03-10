@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+
+    <changeSet id="2" author="yfp">
+        <createTable tableName="todo">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" primaryKeyName="todo_id_pk" />
+            </column>
+            <column name="task" type="varchar(255)">
+                <constraints nullable="false" />
+            </column>
+            <column name="priority" type="varchar(1)">
+                <constraints nullable="false" />
+            </column>
+            <column name="is_completed" type="boolean" defaultValue="false"></column>
+            <column name="created_at" type="timestamp"></column>
+            <column name="updated_at" type="timestamp"></column>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>
